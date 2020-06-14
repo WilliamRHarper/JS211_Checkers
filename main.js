@@ -89,7 +89,6 @@ class Board {
   this.checkers.push(whiteChecker, blackChecker);
   }
   }
-
 }
 
 class Game {
@@ -163,9 +162,8 @@ class Game {
       this.board.grid[whichPiece[0] - 1].splice(whichPiece[1] + 1, 1, null);
       this.board.checkers.pop(); 
     }else{
-      console.log("illegal move");
+      console.log("Illegal move!!!");
     }
-
   }
 }
 
